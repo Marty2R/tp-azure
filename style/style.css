@@ -1,0 +1,198 @@
+header nav {
+  padding: 20px;
+}
+
+header nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  margin: 20px;
+}
+
+header nav ul li a:hover {
+  border-bottom: solid #FFD700 2px;
+}
+
+main section {
+  padding: 40px 0px;
+}
+
+main section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section article p, main section article h3 {
+  width: 700px;
+}
+
+main section article img {
+  width: 600px;
+}
+
+main section article div {
+  width: 700px;
+}
+
+main section article div .logo {
+  width: 200px;
+  display: inline-block;
+}
+
+main section .us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section .us div {
+  margin: 10px 100px;
+}
+
+main section .us div p {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+main section .us div .icone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FFD700;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: black;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main .aide article {
+  padding: 0px 200px;
+}
+
+footer {
+  border-top: solid #FFD700 2px;
+  text-align: center;
+  padding: 10px;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0px;
+}
+
+footer div nav {
+  padding: 0px 100px;
+}
+
+footer div nav ul {
+  list-style: none;
+}
+
+footer div nav ul li {
+  padding: 10px;
+}
+
+footer div nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer div nav ul li a:hover {
+  color: #FFD700;
+}
+
+footer div div {
+  padding: 0px 100px;
+}
+
+footer div div form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer div div form input {
+  display: block;
+  color: #FFD700;
+  background-color: black;
+  border: none;
+  border-bottom: solid #FFD700 1px;
+  padding: 5px;
+}
+
+footer div div button {
+  padding: 5px;
+  border-radius: 5px;
+  color: #FFD700;
+  background-color: black;
+  border: none;
+  margin: 10px auto;
+}
+
+footer div div button:hover {
+  cursor: pointer;
+}
+
+footer div .reseaux ul {
+  list-style: none !important;
+}
+
+footer div .reseaux ul li {
+  margin: 10px 0px;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: sans-serif;
+  padding: 0px 5%;
+}
+/*# sourceMappingURL=style.css.map */
